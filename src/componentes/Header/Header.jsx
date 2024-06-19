@@ -1,13 +1,13 @@
-import Navbar from "../Navbar/Navbar"
+import Navbar from "../Navbar/Navbar";
 
 function Header() {
-    return (
-        <header className="flex bg-primary-thompson text-white p-4 mb-4 text-xl justify-between">
-            <span>Olá, visitante</span>
-            <h1> Bem-vindo ao DutrinhaFLIX</h1>
+    return ( 
+        <header className="flex bg-cor1 text-branco text-center items-center p-4 justify-between">
+            <img src="logo.png" className="w-36 ml-16"/>
             <Navbar/>
         </header>
-    )
+        
+     );
 }
 
-export default Header
+export default Header;

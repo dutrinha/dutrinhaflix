@@ -6,8 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'deadpool': "url('/public/deadpool.jpg')",
+      },
       colors: {
-        'primary-thompson': '#034562'
+        'cor1': '#00162F',
+        'branco': '#FFFFFF',
+        'preto': "#000000"
       }
     },
   },
